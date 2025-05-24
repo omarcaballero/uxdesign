@@ -1,0 +1,21 @@
+.buttonsCat{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttonsCat button{
+    padding: 7px 8px;
+    
+    border: solid 1px white ;
+    border-radius: 10px;
+    background-color: white;
+    color: #523B2B;
+    cursor: pointer;
+}
+
+.buttonsCat button:hover{
+   
+    border: solid 1px #523B2B;
+    color: #523B2B;
+}

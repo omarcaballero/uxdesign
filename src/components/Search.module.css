@@ -1,6 +1,6 @@
 
   .searchInput{
-    width: 70%;
+    width: 85%;
     padding: 10px;
     border-radius: 25px;
     background-image: url('/public/lupa.png');
@@ -11,5 +11,5 @@
   .searchContainer{
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
