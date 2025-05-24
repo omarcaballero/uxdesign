@@ -1,0 +1,56 @@
+---
+import Layout from "../layouts/Layout.astro"
+import Header from "../components/Header.astro"
+---
+<Layout>
+    <Header></Header>
+      <div>
+        <div class="detailProduct">
+            <div>
+                <img src={"/poncho.jpg"} alt="" />
+                <p>{"$100"}</p>
+                <p>{"Poncho"}</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nesciunt earum similique cumque illum commodi doloribus, repellendus ipsum, possimus placeat necessitatibus soluta obcaecati culpa minus neque odio nihil, provident voluptates.</p>
+            </div>
+            <a href="/cart" style="text-decoration: none; color: #523B2B; width: 100%;"><button>Add to Cart</button></a>
+        </div>
+      </div>
+</Layout>   
+
+<style>
+    .detailProduct div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .detailProduct div img{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        left: 30px;
+        position: relative;
+    }
+    .detailProduct button{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #523B2B;
+        color: white;
+        margin: 10px;
+    }
+    .detailProduct{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+    }
+    .detailProduct p{
+        margin: 10px;
+    }
+    .detailProduct img{
+        width: 350px;
+        height: 350px;
+    }
+
+</style>

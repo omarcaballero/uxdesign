@@ -3,7 +3,7 @@ export default function Card(data) {
     data = data.data;
     return (
         <div>
-           <img src={data.image} class={styles.cardImage} alt="" />
+           <a href="/detailproduct"><img src={data.image} class={styles.cardImage} alt="" /></a>
            <div class={styles.cardInfo}>
             <div class={styles.cardInfoText}>
             <p>{data.price}</p>

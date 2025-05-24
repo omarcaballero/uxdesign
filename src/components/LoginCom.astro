@@ -1,0 +1,62 @@
+<div>
+    <h1 class="login"><img src="/logo.png" alt="">AndesWarmi</h1>
+    <div class="loginForm">
+        <label for="username">Username</label>
+        <input class="loginInput" type="text" placeholder="Username" />
+        <label for="password">Password</label>
+        <input class="loginInput" type="password" placeholder="Password" />
+        <a href="/"><button class="loginButton" type="submit">Login</button></a>
+        <p>Forgot your password?</p>
+        <br>
+        <p>Sign up <a href="/register">Register</a></p>
+    </div>
+</div>
+
+<style>
+	
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .login img{
+        width: 50px;
+        height: 50px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+    }
+    h1{
+        margin-bottom: 20px;
+        color: #523B2B;
+    }
+    .loginForm{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .loginInput{
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .loginButton{
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #523B2B;
+        color: white;
+    }
+    .loginButton:hover{
+        cursor: pointer;
+    }
+</style>
