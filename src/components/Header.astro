@@ -1,0 +1,18 @@
+---
+import Menu from "./Menu.astro"
+import styles from "./Header.module.css"
+---
+<div class={styles.header}>
+    <div>
+        <Menu></Menu>
+    </div>
+    <div>
+        <a href="#"><div class={styles.divLogo}>
+            <img src="/public/logo.png" class={styles.logo} alt="logo">
+            <h4>AndesWarmi</h4>
+        </div></a>
+    </div>
+    <div>
+        <a href="#"><img src="/public/cart.png" class={styles.cart} alt="cart"></a>
+    </div>
+</div>
