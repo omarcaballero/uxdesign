@@ -1,0 +1,40 @@
+---
+import CartList from "../components/CartList.jsx"
+import Layout from "../layouts/Layout.astro"
+import HeaderCart from "../components/HeaderCart.astro"
+---
+
+<Layout>
+    <HeaderCart/>
+    <CartList client:load/>
+    <div class="total"> 
+        <div>Total:</div> 
+        <div>$5000</div>
+    </div>
+    <div class="checkout"> 
+        Checkout
+    </div>
+</Layout>
+
+<style>
+    .total{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #dedede;
+        color: #000000;
+    }
+    .checkout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #523B2B;
+        color: white;
+    }
+</style>

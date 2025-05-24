@@ -1,0 +1,24 @@
+.cartList{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cartList div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #523B2B;
+}
+
+.cartList div img{
+    width: 80px;
+    height: 100px;
+}
+
+.cartList div button{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
