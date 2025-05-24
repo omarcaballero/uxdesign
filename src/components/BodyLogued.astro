@@ -1,0 +1,12 @@
+---
+import SearchBar from "./SearchBar.astro";
+import styles from "./Body.module.css"
+import ButtonsCat from "./ButtonsCat.astro"
+import Cards from "./Cards.jsx"
+---
+
+<div class={styles.body}>
+    <SearchBar/>
+    <ButtonsCat/>
+    <Cards client:load/>
+</div>
