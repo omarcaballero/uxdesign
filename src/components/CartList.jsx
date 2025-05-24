@@ -1,32 +1,32 @@
 import styles from "./CartList.module.css"
 const data = {
     card1:{
-        image: "/public/poncho.jpg",
+        image: "/poncho.jpg",
         title: "Poncho",
         price: "$100",
     },
     card2:{
-        image: "/public/gorro.jpg",
+        image: "/gorro.jpg",
         title: "Gorro",
         price: "$100",
     },
     card3:{
-        image: "/public/cardigan.jpg",
+        image: "/cardigan.jpg",
         title: "Cardigan",
         price: "$100",
     },
     card4:{
-        image: "/public/chompa.jpg",
+        image: "/chompa.jpg",
         title: "Chompa",
         price: "$100",
     },
     card5:{
-        image: "/public/gorro.jpg",
+        image: "/gorro.jpg",
         title: "Gorro",
         price: "$100",
     },
     card6:{ 
-        image: "/public/poncho.jpg",
+        image: "/poncho.jpg",
         title: "Poncho",
         price: "$100",
     }

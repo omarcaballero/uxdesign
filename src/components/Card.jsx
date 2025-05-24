@@ -9,7 +9,7 @@ export default function Card(data) {
             <p>{data.price}</p>
             <p>{data.title}</p>
             </div>
-            <a href="/cart"><img src="/public/cart.png" class={styles.cart} alt="" /></a>
+            <a href="/cart"><img src="/cart.png" class={styles.cart} alt="" /></a>
            </div>
         </div>
     );
