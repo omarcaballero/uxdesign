@@ -1,0 +1,41 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HeaderLogued from "../components/HeaderLogued.astro";
+---
+<Layout>
+    <HeaderLogued></HeaderLogued>
+    <div class="profile">
+        <h1>My account</h1>
+        <div class="profileForm">
+            <label for="username">Username</label>
+            <input class="loginInput" type="text" placeholder="Camila Yoko" />
+            <label for="password">Email Address</label>
+            <input class="loginInput" type="password" placeholder="camila.yoko@gmail.com" />
+            <label for="password">Password</label>
+            <input class="loginInput" type="password" placeholder="********" />
+        </div>
+    </div>  
+</Layout>
+
+<style>
+    .profile{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .profileForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .loginInput{
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+</style>
